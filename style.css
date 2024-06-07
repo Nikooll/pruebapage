@@ -1,87 +1,55 @@
-/* CSS */
-
+/* General styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-}
-
-/* Estilo para las imágenes en el carrusel */
-.carousel-img {
-    width: 50%;
-    height: 400px; /* Ajustar según sea necesario */
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: auto; /* Centrar horizontalmente */
-}
-
-.img-1 {
-    background-image: url('img/OOT.jpg');
-}
-
-.img-2 {
-    background-image: url('img/Analisis-matematico.jpg');
-}
-
-.img-3 {
-    background-image: url('img/pipi.jpg');
-}
-
-.img-4 {
-    background-image: url('https://via.placeholder.com/1200x400');
-}
-
-/* Estilo para las imágenes dentro de las tarjetas */
-.card-img {
-    width: 100%;
-    height: 200px; /* Ajustar según sea necesario */
 }
 
 .header {
-    background-color: #87c694;
-    color: white;
-    padding: 60px 0;
+    background: #f8f9fa;
+    padding: 50px 0;
 }
 
-.custom-img {       
-    max-width: 100%;
-    height: auto;
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
-.footer {
-    background-color: #f1f1f1;
+.header p.lead {
+    font-size: 1.25rem;
     color: #6c757d;
 }
 
-h1, h2, h5 {    
-    color: #4a7c59;
+/* Carousel styles */
+.carousel-img {
+    height: 500px;
+    background-position: center;
+    background-size: cover;
 }
 
-p, li {
-    color: #333;
+.img-1 {
+    background-image: url('img/Brazo.jpeg');
 }
 
-.navbar-brand, .nav-link {
-    color: #4a7c59 !important;
+.img-2 {
+    background-image: url('img/Objetivos.png');
 }
 
-.card-title {
-    color: #4a7c59;
+.img-3 {
+    background-image: url('img/Materiales.jpeg');
 }
 
-.card-body {
-    background-color: #e6f3e6;
+.img-4 {
+    background-image: url('img/Proyecto.jpg');
 }
 
-.card-text ul {
-    padding-left: 20px;
+/* Card styles */
+.card-img {
+    height: 220px;
+    background-position: center;
+    background-size: cover;
 }
 
-.card-text ul li {
-    list-style-type: disc;
-}
-
-/* Estilo para las flechas del carrusel */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    color: black; /* Color de las flechas */
+.img-5 img, .img-6 img, .img-7 img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
 }
