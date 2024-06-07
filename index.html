@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentación del Proyecto</title>
+    <title>Proyecto Integrador de Saberes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,129 +18,132 @@
                     <a class="nav-link" href="#inicio">Inicio</a>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#" data-toggle="modal" data-target="#documentacionModal">Documentación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" data-toggle="modal" data-target="#contactoModal">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" data-toggle="modal" data-target="#acercaDeNosotrosModal">Acerca de nosotros</a>
-                </li>
-            </ul>
         </div>
     </nav>
 
-    <header id="inicio" class="header">
+    <header class="header">
         <div class="container text-center">
-            <h1>Documentación Brazo Robótico: Tele - Robot</h1>
-            <p class="lead">Aquí encontrarás toda la información relevante sobre nuestro proyecto.</p>
+            <h1>Proyecto Integrador de Saberes</h1>
         </div>
     </header>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="carousel-img img-1 mx-auto"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>1</h5>
-                    <p>..</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="carousel-img img-2 mx-auto"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>2</h5>
-                    <p>..</p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Siguiente</span>
-        </a>
-    </div>
-
     <main class="container mt-5">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-img img-5 mx-auto"><img src="img/Brazo.jpeg" height="220" width="348"/></div>
-                    <div class="card-body">
-                        <h5 class="card-title">Introducción</h5>
-                        <p class="card-text">El presente proyecto contempla realizar una expansión del trabajo académico realizado en el ciclo previo, esta iniciativa surge como respuesta a la necesidad de optimizar el rendimiento y la funcionalidad del brazo robótico, integrando los nuevos conocimientos que se adquieran de las asignaturas de segundo ciclo de la carrera de computación.</p>
-                        <p class="card-text">La metodología de desarrollo se enfocará en la investigación y experimentación sobre los nuevos componentes por añadir. Y los resultados obtenidos presentan un perfeccionamiento del diagrama de clases, así como la implementación de nuevos dispositivos en el circuito electrónico del brazo robótico.</p>
-                        <a href="pagina_asignatura1.html" class="btn btn-primary">Ver más</a>
-                    </div>
-                </div>
+        <h2>Documentación</h2>
+        <div class="list-group">
+            <div class="list-group-item">
+                <h5 class="mb-1">Programación Orientada a Objetos</h5>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modalPOO">Ver más</button>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-img img-6 mx-auto"><img src="img/Objetivos.png" height="220" width="348"/></div>
-                    <div class="card-body">
-                        <h5 class="card-title">Objetivo General</h5>
-                        <p class="card-text">Desarrollar e implementar un sistema de control remoto mediante software y hardware para un brazo robótico que integre los nuevos conocimientos de las asignaturas del presente ciclo, con el fin de facilitar la manipulación precisa y segura de objetos a distancia, promoviendo la automatización y la eficiencia en tareas operativas como la recolección de residuos.</p>
-                        <h5 class="card-title">Objetivos Específicos</h5>
-                        <p class="card-text">1. Comprender el funcionamiento, los componentes y los tipos de redes informáticas, con la finalidad de integrarlo al proyecto “Tele-Robot”, aplicándolas eficientemente, en el desarrollo de la página web o aplicación de control del proyecto, siempre dentro del panorama de la transmisión de datos inalámbrica, v ía Bluetooth o WiFi.</p>
-                        <p class="card-text">2. Definir y conocer las características técnicas de los componentes adicionales que integrarán al circuito electrónico del brazo robótico, siendo éstos: la tarjeta de desarrollo ESP32-CAM y el sensor de peso HX711, que cumplirán las funciones de transmisión de video en tiempo real y el cálculo del peso de cada uno de los objetos levantados por el brazo robótico, respectivamente. </p>
-                        <a href="pagina_asignatura2.html" class="btn btn-primary">Ver más</a>
-                    </div>
-                </div>
+            <div class="list-group-item">
+                <h5 class="mb-1">Diseño de Circuitos</h5>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modalDC">Ver más</button>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-img img-7 mx-auto"><img src="img/Materiales.jpeg" height="220" width="348"/></div>
-                    <div class="card-body">
-                        <h5 class="card-title">Materiales</h5>
-                        <p class="card-text">- Arduino UNO R3</p>
-                        <p class="card-text">- Servomotores</p>
-                        <p class="card-text">- Protoboard</p>
-                        <p class="card-text">- Cables</p>
-                        <p class="card-text">- Motor Paso a Paso</p>
-                        <p class="card-text">- Placa Microcontroladora del Motor Paso a Paso - ULN2003A</p>
-                        <p class="card-text">- Tornillería </p>
-                        <p class="card-text">- Encoder Ky-040</p>
-                        <p class="card-text">- Resistencias 220 Ohmios</p>
-                        <p class="card-text">- Pulsadores de 4 patas (Pequeños)</p>
-                        <p class="card-text">- Fuente de Poder</p>
-                        <p class="card-text">- Multímetro Digital</p>
-                        <p class="card-text">- Sensor de peso HX711</p>
-                        <p class="card-text">- ESP32-CAM</p>
-                        <p class="card-text">- Madera MDF y corte MDF</p>
-                        <a href="pagina_asignatura3.html" class="btn btn-primary">Ver más</a>
-                    </div>
-                </div>
+            <div class="list-group-item">
+                <h5 class="mb-1">Emprendimiento e Innovación Tecnológica</h5>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modalEIT">Ver más</button>
+            </div>
+            <div class="list-group-item">
+                <h5 class="mb-1">Análisis Matemático</h5>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modalAM">Ver más</button>
+            </div>
+            <div class="list-group-item">
+                <h5 class="mb-1">Teoría de la Distribución y Probabilidad</h5>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modalTDP">Ver más</button>
             </div>
         </div>
 
-        <!-- Modal de Documentación -->
-        <div class="modal fade" id="documentacionModal" tabindex="-1" role="dialog" aria-labelledby="documentacionModalLabel" aria-hidden="true">
+        <!-- Modal Programación Orientada a Objetos -->
+        <div class="modal fade" id="modalPOO" tabindex="-1" role="dialog" aria-labelledby="modalPOOLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="documentacionModalLabel">Documentación</h5>
+                        <h5 class="modal-title" id="modalPOOLabel">Programación Orientada a Objetos</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p>En nuestro proyecto hemos implementado el uso de las 5 asignaturas que recibimos durante este ciclo académico:</p>
-                        <p>Programación Orientada a Obetos:</p>
-                        <p>Diseño de Circuitos</p>
-                        <p>Emprendimiento e innovación tecnológica</p>
-                        <p>Análisis Matemático</p>
-                        <p>Teoría de la Distribución y Probabilidad</p>
-                        <a href="pagina_asignatura4.html" class="btn btn-primary">Ver más</a>
+                        <p>Poner en práctica todos los conocimientos adquiridos durante este proceso académico logrando así obtener los mejores resultados de esta materia.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Diseño de Circuitos -->
+        <div class="modal fade" id="modalDC" tabindex="-1" role="dialog" aria-labelledby="modalDCLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalDCLabel">Diseño de Circuitos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Aplicar lo aprendido en el transcurso de la materia para lograr tener un uso eficiente de componentes, los cuales deben ser acoplados eficientemente para evitar dañarlos y que después no nos funcione nuestro brazo robótico.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Emprendimiento e Innovación Tecnológica -->
+        <div class="modal fade" id="modalEIT" tabindex="-1" role="dialog" aria-labelledby="modalEITLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalEITLabel">Emprendimiento e Innovación Tecnológica</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Se creará una cuenta en una red social para la promoción del proyecto.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Análisis Matemático -->
+        <div class="modal fade" id="modalAM" tabindex="-1" role="dialog" aria-labelledby="modalAMLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalAMLabel">Análisis Matemático</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Generar la función a partir de los datos obtenidos y con ella, poder predecir el uso que se le brindará al brazo robótico en un ambiente laboral en específico.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Teoría de la Distribución y Probabilidad -->
+        <div class="modal fade" id="modalTDP" tabindex="-1" role="dialog" aria-labelledby="modalTDPLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTDPLabel">Teoría de la Distribución y Probabilidad</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>A partir de la ecuación que saquemos de análisis realizaremos una tabla donde nos indique los pesos de los objetos que levante el brazo robótico.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -164,10 +166,9 @@
                         <p>Para más información, escríbenos a nuestros correos:</p>
                         <ul>
                             <li><a href="mailto:francisco.jaramillo@unl.edu.ec">francisco.jaramillo@unl.edu.ec</a></li>
-                            <li><a href="mailto:jimmy.ontaneda@unl.edu.ec">jimmy.ontaneda@unl.edu.ec</a></li>
-                            <li><a href="mailto:gabriel.cevallos@unl.edu.ec">gabriel.cevallos@unl.edu.ec</a></li>
-                            <li><a href="mailto:ariana.s.sarango@unl.edu.ec">ariana.s.sarango@unl.edu.ec</a></li>
-                            <li><a href="mailto:nathaly.n.camacho@unl.edu.ec">nathaly.n.camacho@unl.edu.ec</a></li>
+                            <li><a href="mailto:denisse.sarmiento@unl.edu.ec">denisse.sarmiento@unl.edu.ec</a></li>
+                            <li><a href="mailto:jessica.sanchez@unl.edu.ec">jessica.sanchez@unl.edu.ec</a></li>
+                            <li><a href="mailto:luis.salcedo@unl.edu.ec">luis.salcedo@unl.edu.ec</a></li>
                         </ul>
                     </div>
                     <div class="modal-footer">
@@ -177,32 +178,6 @@
             </div>
         </div>
 
-        <!-- Modal de Acerca de Nosotros -->
-        <div class="modal fade" id="acercaDeNosotrosModal" tabindex="-1" role="dialog" aria-labelledby="acercaDeNosotrosModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="acercaDeNosotrosModalLabel">Acerca de Nosotros</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>¡Hola! Somos un equipo de desarrolladores comprometidos con la innovación y el aprendizaje continuo.</p>
-                        <p>Para más información sobre el proyecto, ¡no dudes en contactarnos!</p>
-                        <p>Atentamente:</p>
-                        <p>Gabriel Cevallos</p>
-                        <p>Francisco Jaramillo</p>
-                        <p>Jimmy Ontaneda</p>
-                        <p>Ariana Sarango</p>
-                        <p>Nikooll Camacho</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
     </main>
 
     <footer class="footer bg-light py-3">
@@ -216,3 +191,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
