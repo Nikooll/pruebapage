@@ -27,7 +27,10 @@
     }
 ?>
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-
+<div class="card mb-4 shadow-sm">
+    <div class="card-body">
+        <h5 class="card-title"><?php echo $nombre_asignatura; ?></h5>
+        <p class="card-text"><?php echo $contenido_asignatura; ?></p>
+    </div>
+</div>
+

@@ -27,19 +27,19 @@
                     <a class="nav-link" href="#" data-toggle="modal" data-target="#contactoModal">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="asignatura.php?nombre=ProgramacionOrientadaObjetos">Programación Orientada a Objetos</a>
+                    <a class="nav-link asignatura-link" href="#" data-nombre="ProgramacionOrientadaObjetos">Programación Orientada a Objetos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="asignatura.php?nombre=DiseñoCircuitos">Diseño de Circuitos</a>
+                    <a class="nav-link asignatura-link" href="#" data-nombre="DiseñoCircuitos">Diseño de Circuitos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="asignatura.php?nombre=EmprendimientoInnovacion">Emprendimiento e Innovación Tecnológica</a>
+                    <a class="nav-link asignatura-link" href="#" data-nombre="EmprendimientoInnovacion">Emprendimiento e Innovación Tecnológica</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="asignatura.php?nombre=AnalisisMatematico">Análisis Matemático</a>
+                    <a class="nav-link asignatura-link" href="#" data-nombre="AnalisisMatematico">Análisis Matemático</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="asignatura.php?nombre=TeoriaDistribucionProbabilidad">Teoría de la Distribución y Probabilidad</a>
+                    <a class="nav-link asignatura-link" href="#" data-nombre="TeoriaDistribucionProbabilidad">Teoría de la Distribución y Probabilidad</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" data-toggle="modal" data-target="#acercaDeNosotrosModal">Acerca de nosotros</a>
@@ -83,89 +83,102 @@
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <
+            <span class="sr-only">Siguiente</span>
         </a>
     </div>
-</div>
 
-<main class="container mt-5">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <div class="card-img img-5 mx-auto"><img src="img/Brazo.jpeg" height="220" width="348"/></div>
-                <div class="card-body">
-                    <h5 class="card-title">Introducción</h5>
-                    <p class="card-text">El presente proyecto contempla realizar una expansión del trabajo
-                        académico realizado en el ciclo previo, esta iniciativa surge como respuesta a la
-                        necesidad de optimizar el rendimiento y la funcionalidad del brazo robótico, integrando
-                        los nuevos conocimientos que se adquieran de las asignaturas de segundo ciclo de la carrera
-                        de computación.</p>
-                    <p class="card-text">La metodología de desarrollo se enfocará en la investigación y
-                        experimentación sobre los nuevos componentes por añadir. Y los resultados obtenidos
-                        presentan un perfeccionamiento del diagrama de clases, así como la implementación de
-                        nuevos dispositivos en el circuito electrónico del brazo robótico.</p>
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-img img-5 mx-auto"><img src="img/Brazo.jpeg" height="220" width="348"/></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Introducción</h5>
+                        <p class="card-text">El presente proyecto contempla realizar una expansión del trabajo
+                            académico realizado en el ciclo previo, esta iniciativa surge como respuesta a la
+                            necesidad de optimizar el rendimiento y la funcionalidad del brazo robótico, integrando
+                            los nuevos conocimientos que se adquieran de las asignaturas de segundo ciclo de la carrera
+                            de computación.</p>
+                        <p class="card-text">La metodología de desarrollo se enfocará en la investigación y
+                            experimentación sobre los nuevos componentes por añadir. Y los resultados obtenidos
+                            presentan un perfeccionamiento del diagrama de clases, así como la implementación de
+                            nuevos dispositivos en el circuito electrónico del brazo robótico.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-img img-6 mx-auto"><img src="img/Objetivos.png" height="220" width="348"/></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Objetivo General</h5>
+                        <p class="card-text">Desarrollar e implementar un sistema de control remoto
+                            mediante software y hardware para un brazo robótico que integre los nuevos conocimientos
+                            de las asignaturas del presente ciclo, con el fin de facilitar la manip
+                            ulación precisa y segura de objetos a distancia, promoviendo la automatización y la eficiencia en tareas
+                            operativas como la recolección de residuos.</p>
+                        <h5 class="card-title">Objetivos Específicos</h5>
+                        <p class="card-text">1. Comprender el funcionamiento, los componentes y los tipos de redes
+                            informáticas, con la finalidad de integrarlo al proyecto “Tele-Robot”, aplicándolas
+                            eficientemente, en el desarrollo de la página web o aplicación de control del proyecto,
+                            siempre dentro del panorama de la transmisión de datos inalámbrica, v
+                            ía Bluetooth o WiFi.</p>
+                        <p class="card-text">2. Definir y conocer las características técnicas de los componentes
+                            adicionales que integrarán al circuito electrónico del brazo robótico, siendo éstos:
+                            la tarjeta de desarrollo ESP32-CAM y el sensor de peso HX711, que cumplirán las funciones
+                            de transmisión de video en tiempo real y el cálculo del peso de cada uno de los objetos
+                            levantados por el brazo robótico, respectivamente. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-img img-7 mx-auto"><img src="img/Materiales.jpeg" height="220" width="348"/></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Materiales</h5>
+                        <p class="card-text">- Arduino UNO R3</p>
+                        <p class="card-text">- Servomotores</p>
+                        <p class="card-text">- Protoboard</p>
+                        <p class="card-text">- Cables</p>
+                        <p class="card-text">- Motor Paso a Paso</p>
+                        <p class="card-text">- Placa Microcontroladora del Motor Paso a Paso - ULN2003A</p>
+                        <p class="card-text">- Tornillería </p>
+                        <p class="card-text">- Encoder Ky-040</p>
+                        <p class="card-text">- Resistencias 220 Ohmios</p>
+                        <p class="card-text">- Pulsadores de 4 patas (Pequeños)</p>
+                        <p class="card-text">- Fuente de Poder</p>
+                        <p class="card-text">- Multímetro Digital</p>
+                        <p class="card-text">- Sensor de peso HX711</p>
+                        <p class="card-text">- ESP32-CAM</p>
+                        <p class="card-text">- Madera MDF y corte MDF</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <div class="card-img img-6 mx-auto"><img src="img/Objetivos.png" height="220" width="348"/></div>
-                <div class="card-body">
-                    <h5 class="card-title">Objetivo General</h5>
-                    <p class="card-text">Desarrollar e implementar un sistema de control remoto
-                        mediante software y hardware para un brazo robótico que integre los nuevos conocimientos
-                        de las asignaturas del presente ciclo, con el fin de facilitar la manipulación precisa y
-                        segura de objetos a distancia, promoviendo la automatización y la eficiencia en tareas
-                        operativas como la recolección de residuos.</p>
-                    <h5 class="card-title">Objetivos Específicos</h5>
-                    <p class="card-text">1. Comprender el funcionamiento, los componentes y los tipos de redes
-                        informáticas, con la finalidad de integrarlo al proyecto “Tele-Robot”, aplicándolas
-                        eficientemente, en el desarrollo de la página web o aplicación de control del proyecto,
-                        siempre dentro del panorama de la transmisión de datos inalámbrica, v
-                        ía Bluetooth o WiFi.</p>
-                    <p class="card-text">2. Definir y conocer las características técnicas de los componentes
-                        adicionales que integrarán al circuito electrónico del brazo robótico, siendo éstos:
-                        la tarjeta de desarrollo ESP32-CAM y el sensor de peso HX711, que cumplirán las funciones
-                        de transmisión de video en tiempo real y el cálculo del peso de cada uno de los objetos
-                        levantados por el brazo robótico, respectivamente. </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <div class="card-img img-7 mx-auto"><img src="img/Materiales.jpeg" height="220" width="348"/></div>
-                <div class="card-body">
-                    <h5 class="card-title">Materiales</h5>
-                    <p class="card-text">- Arduino UNO R3</p>
-                    <p class="card-text">- Servomotores</p>
-                    <p class="card-text">- Protoboard</p>
-                    <p class="card-text">- Cables</p>
-                    <p class="card-text">- Motor Paso a Paso</p>
-                    <p class="card-text">- Placa Microcontroladora del Motor Paso a Paso - ULN2003A</p>
-                    <p class="card-text">- Tornillería </p>
-                    <p class="card-text">- Encoder Ky-040</p>
-                    <p class="card-text">- Resistencias 220 Ohmios</p>
-                    <p class="card-text">- Pulsadores de 4 patas (Pequeños)</p>
-                    <p class="card-text">- Fuente de Poder</p>
-                    <p class="card-text">- Multímetro Digital</p>
-                    <p class="card-text">- Sensor de peso HX711</p>
-                    <p class="card-text">- ESP32-CAM</p>
-                    <p class="card-text">- Madera MDF y corte MDF</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</main>
+    </main>
 
-<footer class="footer bg-light py-3">
-    <div class="container text-center">
-        <span class="text-muted">© 2024 Proyecto Integrador de Saberes</span>
-    </div>
-</footer>
+    <footer class="footer bg-light py-3">
+        <div class="container text-center">
+            <span class="text-muted">© 2024 Proyecto Integrador de Saberes</span>
+        </div>
+    </footer>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".asignatura-link").click(function(e){
+                e.preventDefault();
+                var nombre_asignatura = $(this).data("nombre");
+                $.ajax({
+                    url: "asignatura.php?nombre=" + nombre_asignatura,
+                    success: function(data){
+                        $("#main-content").html(data);
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
 
