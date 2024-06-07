@@ -1,55 +1,82 @@
-/* General styles */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
 }
 
-.header {
-    background: #f8f9fa;
-    padding: 50px 0;
-}
-
-.header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-.header p.lead {
-    font-size: 1.25rem;
-    color: #6c757d;
-}
-
-/* Carousel styles */
 .carousel-img {
-    height: 500px;
-    background-position: center;
+    width: 50%;
+    height: 400px;
     background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
 }
 
 .img-1 {
-    background-image: url('img/Brazo.jpeg');
+    background-image: url('img/OOT.jpg');
 }
 
 .img-2 {
-    background-image: url('img/Objetivos.png');
+    background-image: url('img/Analisis-matematico.jpg');
 }
 
 .img-3 {
-    background-image: url('img/Materiales.jpeg');
+    background-image: url('img/pipi.jpg');
 }
 
 .img-4 {
-    background-image: url('img/Proyecto.jpg');
+    background-image: url('https://via.placeholder.com/1200x400');
 }
 
-/* Card styles */
 .card-img {
-    height: 220px;
-    background-position: center;
-    background-size: cover;
+    width: 100%;
+    height: 200px;
 }
 
-.img-5 img, .img-6 img, .img-7 img {
-    height: 220px;
-    width: 100%;
-    object-fit: cover;
+.header {
+    background-color: #87c694;
+    color: white;
+    padding: 60px 0;
+}
+
+.custom-img {       
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    color: #6c757d;
+}
+
+h1, h2, h5 {    
+    color: #4a7c59;
+}
+
+p, li {
+    color: #333;
+}
+
+.navbar-brand, .nav-link {
+    color: #4a7c59 !important;
+}
+
+.card-title {
+    color: #4a7c59;
+}
+
+.card-body {
+    background-color: #e6f3e6;
+}
+
+.card-text ul {
+    padding-left: 20px;
+}
+
+.card-text ul li {
+    list-style-type: disc;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: black;
 }
